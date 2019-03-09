@@ -55,12 +55,19 @@
       </ul>
     </div>
   </nav>  <!-- top template-->
-  
+    <hr class="m-0">
 
-{{content | safe}}  <!-- placeholder -->
-  
- <!-- bottom template -->
- 
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Github Repos</h2>
+        <ol class="edit">
+        {% for repo in github_repos %}
+            <li><a href={{repo.html_url}}>{{ repo.name }}</a></li>
+        {% endfor %}
+        </ol>
+    </div>
+    </section>
+    
   <!-- Bootstrap core JavaScript -->
   <script src="/static/vendor/jquery/jquery.min.js"></script>
   <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

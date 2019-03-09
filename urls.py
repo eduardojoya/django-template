@@ -8,8 +8,7 @@ urlpatterns=[
     path('resume', views.resume),
     path('education', views.education),
     path('interests', views.interests),
-    path('blog', views.blog), 
-     
+    path('github', views.github),     
 ]
 
 from django.conf import settings

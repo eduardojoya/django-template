@@ -38,9 +38,10 @@ def education(request):
     }
     return render(request, 'base.html', context)
     
-def blog(request):
-    blog_html = open('content/blog.html').read()
+def github(request):
+    response = requests.get('https://api.github.com/users/eduardojoya/repos')
+    repos = response.json()
     context = {
-        'content': blog_html,
+        'github_repos': repos,
     }
-    return render(request, 'base.html', context)
+    return render(request, 'github.html', context)

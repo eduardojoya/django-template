@@ -7,13 +7,11 @@
 
 {body{padding-top:0;padding-left:17rem}}
 
-h1,h2,h3,h4,h5,h6{font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-weight:700;text-transform:uppercase;color:#343a40}h1{font-size:6rem;line-height:5.5rem}
+h1,h2,h3,h4,h5,h6{font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-weight:700;text-transform:uppercase;color:#343a40}h1{font-size:6rem;line-height:3.5rem}
 
-h2{font-size:3.5rem}
+h3{font-size:2rem; margin-top: 0px;}
 
-h3{font-size:2rem}
-
-h2.mb-5{font-family:'Saira Extra Condensed', sans-serif;}
+h2 .mb-5{font-family:'Saira Extra Condensed', sans-serif; margin-bottom: 10px;font-size:1rem}
 
 .mb-0{font-family:'Saira Extra Condensed', sans-serif;}
 
@@ -35,6 +33,8 @@ p.lead{font-family: 'Nunito', sans-serif; font-size:1.15rem;font-weight:400}
 .dev-icons{font-size:3rem}
 
 .dev-icons .list-inline-item i:hover{color:#bd5d38}
+
+.edit .test {margin-top: -20px;}
 
 #sideNav .navbar-nav .nav-item .nav-link{font-weight:800;letter-spacing:.05rem;text-transform:uppercase}#sideNav .navbar-toggler:focus{outline-color:#d48a6e} @media (min-width:992px){#sideNav{text-align:center;position:fixed;top:0;left:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:17rem;height:100vh}
 
