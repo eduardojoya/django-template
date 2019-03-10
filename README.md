@@ -1,1 +1,5 @@
-#Another static site generator using django-templating with a page linking to my current repositories on Github
+#Another static site generator using django for templating. 
+
+Link to site:
+https://rocky-atoll-12590.herokuapp.com/
+
