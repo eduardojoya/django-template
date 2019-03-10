@@ -1,5 +1,11 @@
-  <div class="container-fluid p-0">
+{% extends 'base.html' %}
+ 
+{% block title %}
+About Me
+{% endblock title %}
 
+{% block content %}
+   <div class="container-fluid p-0">
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
         <h1 class="mb-0">Eduardo
@@ -20,3 +26,4 @@
       </div>
     </section>
   </div>
+{% endblock content %}

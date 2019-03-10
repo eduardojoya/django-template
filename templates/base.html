@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>{{title}}</title>
+  <title>{% block title %} {% endblock %}</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -55,10 +55,9 @@
       </ul>
     </div>
   </nav>  <!-- top template-->
-  
-
-{{content | safe}}  <!-- placeholder -->
-  
+{% block content %}  
+<!--{{content | safe}}  <!-- placeholder -->-->
+{% endblock content %}  
  <!-- bottom template -->
  
   <!-- Bootstrap core JavaScript -->

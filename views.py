@@ -3,40 +3,29 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 def index(request):
-    index_html = open('content/index.html').read()
-    context = {
-        'content': index_html,
-    }
-    return render(request, 'base.html', context)
+    context = {}
+    return render(request, 'index.html', context)
 
 
 def about(request):
-    index_html = open('content/index.html').read()
-    context = {
-        'content': index_html,
-    }
-    return render(request, 'base.html', context)
+#    index_html = open('content/index.html').read()
+    context = {}
+    return render(request, 'index.html', context)
         
 def resume(request):
-    resume_html = open('content/resume.html').read()
-    context = {
-        'content': resume_html,
-    }
-    return render(request, 'base.html', context)
+#    resume_html = open('content/resume.html').read()
+    context = {}
+    return render(request, 'resume.html', context)
     
 def interests(request):
-    interests_html = open('content/interests.html').read()
-    context ={
-        'content': interests_html,
-    }
-    return render(request, 'base.html', context)
+#    interests_html = open('content/interests.html').read()
+    context ={}
+    return render(request, 'interests.html', context)
     
 def education(request):
-    education_html = open('content/education.html').read()
-    context = {
-        'content': education_html,
-    }
-    return render(request, 'base.html', context)
+#    education_html = open('content/education.html').read()
+    context = {}
+    return render(request, 'education.html', context)
     
 def github(request):
     response = requests.get('https://api.github.com/users/eduardojoya/repos')
